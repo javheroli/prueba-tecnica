@@ -1,0 +1,22 @@
+{
+  "name": "prueba-tecnica",
+  "version": "1.0.0",
+  "description": "My first contact with node.js, express, mongoDB for Guelcom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javheroli/prueba-tecnica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javheroli/prueba-tecnica/issues"
+  },
+  "homepage": "https://github.com/javheroli/prueba-tecnica#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
