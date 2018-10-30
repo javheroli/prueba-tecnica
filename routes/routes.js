@@ -40,5 +40,3 @@ router.post('/signup', passport.authenticate('signup', { session : false }) , as
 
 
 module.exports = router;
-
-

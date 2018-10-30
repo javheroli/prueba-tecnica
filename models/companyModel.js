@@ -22,7 +22,6 @@ const companyModel = new Schema({
     created_at: { type: Date },
     updated_at: { type: Date   },
     overview: { type: String },
-    products: { type: Array }
-
+    products: { type: Array },
 })
-module.exports = mongoose.model('companies', companyModel)
+module.exports = mongoose.model('company', companyModel)
