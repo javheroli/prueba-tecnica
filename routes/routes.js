@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 
 
 
-//Route  /api/companies/signup
+//Route  /api/user/signup
 //Authenticate user based on the data sended by user previously
 router.post('/signup', passport.authenticate('signup', { session : false }) , async (req, res, next) => {
     res.json({ 
@@ -15,7 +15,7 @@ router.post('/signup', passport.authenticate('signup', { session : false }) , as
     });
   });
 
-  //Rout /api/companies/login
+  //Route /api/user/login
   //Creation of login token for user
   router.post('/login', async (req, res, next) => {
     passport.authenticate('login', async (err, user, info) => {     try {
@@ -40,3 +40,5 @@ router.post('/signup', passport.authenticate('signup', { session : false }) , as
 
 
 module.exports = router;
+
+
